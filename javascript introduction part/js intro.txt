@@ -1,0 +1,31 @@
+java script introduction :
+
+java script is a scriptting language it is a scriptting language for web interactivity java script is light-weight programming language ..without javascript we can't take any action on web page..
+without javascript the web browser is in static form when we add javascript to html then the web page is in dynamic form and take action to move into another page so the java script is web 
+interactivity ....it is also scriptting language for html web pages..... 
+
+
+<script   type="text/javascript">
+
+</script>
+
+in html code we can place the script tag in head tag or body tag also its our choice we can place on head or body in both it can work
+
+java script is not strictly language it is free type language example the semi coluns(;)..is optional without using this colons also the code going to be excuted succesfully.
+
+
+
+in java script there are datatypes
+
+
+the data types are two types named as primitive and non-primitive 
+
+*primitive is has holding one value for example price brand name 
+*non-primitive holding multiple values for example sizes-s,m,l,xl...
+
+the primitive datatypes are string number boolean undefined and null
+
+the non-primitive data types are object array 
+
+
+there are total 7 types 
