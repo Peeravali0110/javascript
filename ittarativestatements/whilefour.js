@@ -8,8 +8,8 @@
 
 
 let i=1
-while(i<=100){
+while(i<=40){
     console.log(i)
     if(num % 4 == 0)
-    i=i*4
+    i=i+4
 }
