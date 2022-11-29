@@ -4,8 +4,9 @@
 
 
 let i=1
-while(i<=100){
-    if(9%i==0){
+let n=5
+while(i<=n){
+    if(100%i==0){
         console.log(i) 
     }
    i++;

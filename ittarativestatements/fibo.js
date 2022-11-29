@@ -13,10 +13,7 @@ while( a<1000){
 
 let a=0;
 let b=1;
-console.log("fibonacci sries")
-for(let i=1;i<9;i++){
-
-
+for(let i=0;i<9;i=i+1){
 console.log(a)
     c=a+b;
     a=b;
