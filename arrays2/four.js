@@ -10,9 +10,15 @@ let i=0;
 do {
     console.log(size[i])
     i=i+1
+    
 }
 while(i<=size.length-1){
+
+
 }
+
+
+
 
 
 
