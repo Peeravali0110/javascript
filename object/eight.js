@@ -46,7 +46,7 @@ let user={
     name:"syed peera vali",
     email:"peeravali0110@gmail.com",
     mobile:8465848597,
-   location:["jammu","giddalur","hyderabad","banglore"]
+    location: ["jammu","giddalur","hyderabad","banglore"]
 }
 
 
@@ -56,10 +56,23 @@ console.log(user.name)
 console.log(user.email)
 console.log(user.mobile)
 console.log(user.location)
-console.log(user.location[0])
-console.log(user.location[1])
-console.log(user.location[2])
-console.log(user.location[3])
+/*console.log(user.location[0]);
+console.log(user.location[1]);
+console.log(user.location[2]);
+console.log(user.location[3]);*/
+
+for(let i=0;i<=user.location.length;i++)
+{
+    console.log(user.location[i]);
+}
+
+
+
+
+
+
+
+
 
 
 
