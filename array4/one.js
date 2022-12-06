@@ -1,0 +1,10 @@
+let a=[10,20,30,55,60] 
+console.log(a)
+a.push(2000)
+console.log(a)
+a.pop()
+console.log(a)
+a.shift()
+console.log(a)
+a.unshift(1000)
+console.log(a)
