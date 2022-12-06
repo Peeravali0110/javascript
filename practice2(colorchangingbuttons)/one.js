@@ -1,0 +1,1 @@
+document.getElementById("abc").innerHTML="hi my self iam syed peera vali recently in have completed my B.E"
