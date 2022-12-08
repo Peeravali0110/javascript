@@ -1,4 +1,4 @@
-[{"id":1,"name":"Lianshui Airport","gender":"Female"},
+let enames= [{"id":1,"name":"Lianshui Airport","gender":"Female"},
 {"id":2,"name":"Laurinburg Maxton Airport","gender":"Male"},
 {"id":3,"name":"Osan Air Base","gender":"Female"},
 {"id":4,"name":"Qamdo Bangda Airport","gender":"Male"},
@@ -998,3 +998,23 @@
 {"id":998,"name":"Gloucestershire Airport","gender":"Male"},
 {"id":999,"name":"Wajir Airport","gender":"Female"},
 {"id":1000,"name":"Sitiawan Airport","gender":"Male"}]
+
+
+function hello(){
+
+
+    let rows=""
+    for(let i=0;i<=enames.length-1;i=i+1){
+
+        rows=rows+`<tr>
+        
+        
+        <td>${enames[i].id}</td>
+        <td>${enames[i].name}</td>
+        <td>${enames[i].gender}</td>
+        
+        </tr>`
+    }
+
+    document.getElementById("abc").innerHTML=rows
+}
