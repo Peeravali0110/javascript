@@ -1,0 +1,10 @@
+let names=["aryan","syed",01,1999]
+console.log(names)
+names.push("syed peera vali")
+console.log(names)
+names.pop()
+console.log(names)
+names.shift()
+console.log(names)
+names.unshift("hello ")
+console.log(names)
